@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Id": "io.github.your-github-username.powermenu",
+        "Name": "Power Menu",
+        "Name[hu]": "Kapcsolófedél",
+        "Description": "Sleep, hibernate, restart, shut down and log out with a confirmation countdown",
+        "Description[hu]": "Alvás, hibernálás, újraindítás, leállítás, kijelentkezés megerősítéssel",
+        "Icon": "system-shutdown",
+        "Authors": [{ "Name": "Your Name" }],
+        "Website": "https://github.com/your-github-username/plasma-powermenu",
+        "Category": "System Information",
+        "License": "GPL-2.0+",
+        "Version": "1.9"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-NotificationArea": "true",
+    "X-Plasma-NotificationAreaCategory": "SystemServices"
+}
