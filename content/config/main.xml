@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="showSleep" type="Bool"><default>true</default></entry>
+        <entry name="showHibernate" type="Bool"><default>true</default></entry>
+        <entry name="showReboot" type="Bool"><default>true</default></entry>
+        <entry name="showShutdown" type="Bool"><default>true</default></entry>
+        <entry name="showLogout" type="Bool"><default>true</default></entry>
+        <entry name="order" type="String"><default>sleep,hibernate,reboot,shutdown,logout</default></entry>
+        <entry name="language" type="String"><default></default></entry>
+    </group>
+</kcfg>
