@@ -1,0 +1,21 @@
+{
+    "language.name": "English",
+    "app.name": "Power Menu",
+    "action.sleep": "Sleep",
+    "action.hibernate": "Hibernate",
+    "action.reboot": "Restart",
+    "action.shutdown": "Shut down",
+    "action.logout": "Log out",
+    "confirm.sleep": "Are you sure you want to sleep?",
+    "confirm.hibernate": "Are you sure you want to hibernate the computer?",
+    "confirm.reboot": "Are you sure you want to restart the computer?",
+    "confirm.shutdown": "Are you sure you want to shut down the computer?",
+    "confirm.logout": "Are you sure you want to log out?",
+    "button.yes": "Yes (%s s)",
+    "button.cancel": "Cancel",
+    "tooltip.countdown": "%s in %s s",
+    "settings.category": "Display",
+    "settings.heading": "Select the item(s) to show; at least one must be selected!",
+    "settings.language": "Language:",
+    "settings.language.auto": "Automatic"
+}
