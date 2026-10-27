@@ -1,0 +1,21 @@
+{
+    "language.name": "Magyar",
+    "app.name": "Kapcsolófedél",
+    "action.sleep": "Alvó állapot",
+    "action.hibernate": "Hibernálás",
+    "action.reboot": "Újraindítás",
+    "action.shutdown": "Leállítás",
+    "action.logout": "Kijelentkezés",
+    "confirm.sleep": "Biztosan átvált alvó állapotra?",
+    "confirm.hibernate": "Biztosan hibernálja a számítógépet?",
+    "confirm.reboot": "Biztosan újraindítja a számítógépet?",
+    "confirm.shutdown": "Biztosan leállítja a számítógépet?",
+    "confirm.logout": "Biztosan kijelentkezik?",
+    "button.yes": "Igen (%s mp)",
+    "button.cancel": "Mégse",
+    "tooltip.countdown": "%s %s mp múlva",
+    "settings.category": "Megjelenítés",
+    "settings.heading": "Válassza ki a megjelenítendő eleme(ke)t; legalább egyet ki kell választania!",
+    "settings.language": "Nyelv:",
+    "settings.language.auto": "Automatikus"
+}
