@@ -1,13 +1,14 @@
 {
     "KPlugin": {
-        "Id": "io.github.your-github-username.powermenu",
+        "Id": "io.github.summoner001.powermenu",
         "Name": "Power Menu",
         "Name[hu]": "Kapcsolófedél",
         "Description": "Sleep, hibernate, restart, shut down and log out with a confirmation countdown",
         "Description[hu]": "Alvás, hibernálás, újraindítás, leállítás, kijelentkezés megerősítéssel",
         "Icon": "system-shutdown",
-        "Authors": [{ "Name": "Your Name" }],
-        "Website": "https://github.com/your-github-username/plasma-powermenu",
+        "Authors": [{ "Name": "summoner001" }],
+        "Website": "https://github.com/summoner001/KDE-Power-Menu-Plasmoid",
+        "BugReportUrl": "https://github.com/summoner001/KDE-Power-Menu-Plasmoid/issues",
         "Category": "System Information",
         "License": "GPL-2.0+",
         "Version": "1.9"
