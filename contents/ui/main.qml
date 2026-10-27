@@ -258,10 +258,23 @@ PlasmoidItem {
                     spacing: Kirigami.Units.largeSpacing
 
                     PlasmaComponents3.Button {
+                        id: yesButton
                         Layout.preferredWidth: Kirigami.Units.gridUnit * 10
                         text: translator.t("button.yes", root.remaining)
                         icon.name: "dialog-ok"
                         onClicked: root.execute()
+
+                        contentItem: RowLayout {
+                            spacing: Kirigami.Units.smallSpacing
+                            Item { Layout.fillWidth: true }
+                            Kirigami.Icon {
+                                source: yesButton.icon.name
+                                Layout.preferredWidth: Kirigami.Units.iconSizes.small
+                                Layout.preferredHeight: Kirigami.Units.iconSizes.small
+                            }
+                            PlasmaComponents3.Label { text: yesButton.text }
+                            Item { Layout.fillWidth: true }
+                        }
                     }
                     PlasmaComponents3.Button {
                         id: cancelButton
@@ -270,6 +283,18 @@ PlasmoidItem {
                         icon.name: "dialog-cancel"
                         focus: true
                         onClicked: root.cancel()
+
+                        contentItem: RowLayout {
+                            spacing: Kirigami.Units.smallSpacing
+                            Item { Layout.fillWidth: true }
+                            Kirigami.Icon {
+                                source: cancelButton.icon.name
+                                Layout.preferredWidth: Kirigami.Units.iconSizes.small
+                                Layout.preferredHeight: Kirigami.Units.iconSizes.small
+                            }
+                            PlasmaComponents3.Label { text: cancelButton.text }
+                            Item { Layout.fillWidth: true }
+                        }
                     }
                 }
             }
